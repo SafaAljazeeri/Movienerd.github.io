@@ -1,0 +1,32 @@
+p.quote {text-align: center; font-size: 30px; font-style: italic;}
+ul.reviews {text-align: right;}
+h1.name {border-style: double; padding:10px; border-right-color: rosybrown; border-left-color: rosybrown; font-family: 'brush script mt', cursive; font-size: 100px;}
+li {display: inline;margin-right: 10px; font-size: 20px}
+h1 {color:white}
+p {color:white}
+body {background-color: rosybrown;}
+body {background-image: url("assignment5.jpg"); height: 200px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;}
+li {color: white}
+button {background-color: rosybrown;
+  font-family:cursive;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;}
+    button:hover {background-color: white; color: rosybrown;}
+  div.space {margin-top: 100px;}
+p.text {text-align: left; font-size: 60px; font-family: 'garamond',serif;}
+a {text-align: left; font-size: 40px; font-family: 'garamond',serif;}
+a:link, a:visited {color: white;}
+a:hover, a:active {color: gray;}
+div.border {border-style: solid; padding:10px; border-color: white; -moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px; display:block; width: 25%;}
+p.somethingborrowed {text-align: left; font-size: 50px; font-family: 'garamond',serif;}
+p.movies {text-align: left; font-size: 25px; font-family: 'garamond',serif; margin-left: 50px; margin-right: 200px}
+p.aquietplace {text-align: left; font-size: 50px; font-family: 'garamond',serif;}
+p.annabelle {text-align: left; font-size: 50px; font-family: 'garamond',serif;}
+img{width: 275px;text-align: center;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px; display:block; margin-left: auto; margin-right: auto; width: 50%}
+@media screen and (min-width: 2000px) {
+  body {background-color: darkgray;}}
