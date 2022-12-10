@@ -26,5 +26,7 @@ p.least {text-align: center; font-size: 50px; font-family: 'garamond',serif;}
 p.movies {text-align: center; font-size: 30px; font-family: 'garamond',serif;}
 a:link, a:visited {color: white;}
 a:hover, a:active {color: gray;}
-@media screen and (min-width: 2000px) {
-  body {background-color: darkgray;}}
+@media only screen
+and (device-width: 390px)
+and (device-width: 844px)
+and (-webkit-device-pixel-ratio: 3) {body {background-color: darkgray;}}

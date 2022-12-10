@@ -28,5 +28,7 @@ p.movies {text-align: left; font-size: 25px; font-family: 'garamond',serif; marg
 p.aquietplace {text-align: left; font-size: 50px; font-family: 'garamond',serif;}
 p.annabelle {text-align: left; font-size: 50px; font-family: 'garamond',serif;}
 img{width: 275px;text-align: center;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px; display:block; margin-left: auto; margin-right: auto; width: 50%}
-@media screen and (min-width: 2000px) {
-  body {background-color: darkgray;}}
+@media only screen
+and (device-width: 390px)
+and (device-width: 844px)
+and (-webkit-device-pixel-ratio: 3) {body {background-color: darkgray;}}

@@ -21,5 +21,7 @@ button {background-color: rosybrown;
 p.text {text-align: center; font-size: 60px; font-family: 'garamond',serif;}
 p.talk {text-align: center; font-size: 30px; font-family: 'garamond',serif; margin-left: 200px; margin-right: 200px}
 img{width: 275px;text-align: center;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px; display:block; margin-left: auto; margin-right: auto; width: 30%}
-@media screen and (min-width: 2000px) {
-  body {background-color: darkgray;}}
+@media only screen
+and (device-width: 390px)
+and (device-width: 844px)
+and (-webkit-device-pixel-ratio: 3) {body {background-color: darkgray;}}
